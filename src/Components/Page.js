@@ -6,10 +6,12 @@ import Started from "./Started";
 import Projects from "./Projects";
 const Page = () => {
   return (
-    (<Route path="/" exact component={Home} />),
-    (<Route path="/completed" component={Completed} />),
-    (<Route path="/started" component={Started} />),
-    (<Route path="/projects" component={Projects} />)
+    <div>
+      <Route path="/" exact component={Home} />
+      <Route path="/completed" component={Completed} />
+      <Route path="/started" component={Started} />
+      <Route path="/projects" component={Projects} />
+    </div>
   );
 };
 

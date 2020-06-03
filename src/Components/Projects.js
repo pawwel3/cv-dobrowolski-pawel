@@ -1,17 +1,74 @@
 import React from "react";
 import "../style/Projects.css";
+import word from "../img/world-wide-web.png";
+import github from "../img/github.png";
+
 const Projects = () => {
   return (
     <div className="Projects">
       <h1>Projekty</h1>
-      <a
-        className="App-link"
-        href="https://dobrowolski-paw.github.io/weather-app/"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Miecio Pogoda
-      </a>
+      <p>
+        <h3>Pogoda</h3>
+        <a
+          className="App-link"
+          href="https://dobrowolski-paw.github.io/weather-app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={word} alt="www"></img>
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/pawwel3/weather-app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={github} alt="github"></img>
+        </a>
+      </p>
+      <p>
+        <h3>Gra spostrzegawczość</h3>
+        <a
+          className="App-link"
+          href="https://pawwel3.github.io/perceptivity/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={word} alt="www"></img>
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/pawwel3/perceptivity"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={github} alt="github"></img>
+        </a>
+      </p>
+      <p>
+        <h3>Gra diamond</h3>
+
+        <a
+          className="App-link"
+          href="https://github.com/pawwel3/Diamond"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={github} alt="github"></img>
+        </a>
+      </p>
+      <p>
+        <h3>Gra szubienica</h3>
+
+        <a
+          className="App-link"
+          href="https://github.com/pawwel3/szubienica"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={github} alt="github"></img>
+        </a>
+      </p>
     </div>
   );
 };
