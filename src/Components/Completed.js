@@ -8,6 +8,7 @@ import react from "../img/react.png";
 import "../style/Completed.css";
 import ReactCert from "./ReactCert";
 import GitCert from "./GitCert";
+import Js from "./Js";
 const kursList = [
   { name: "Java", path: "/completed/java", src: java },
   { name: "JavaScript", path: "/completed/javaScript", src: js },
@@ -31,6 +32,7 @@ const Completed = () => {
       <div className="Kurs">{kurs}</div>
       <div>
         <Route path="/completed/java" component={Java} />
+        <Route path="/completed/javaScript" component={Js} />
         <Route path="/completed/react" component={ReactCert} />
         <Route path="/completed/git" component={GitCert} />
       </div>

@@ -1,23 +1,15 @@
-<Link to="/java">
-              <img
-                src={JavaLog}
-                alt="java logo"
-                style={{ width: "10vw", height: "20vh" }}
-              ></img>
-            </Link>
-            <div id="Kurs">
-              <img
-                src={JS}
-                alt="javaScript logo"
-                style={{ width: "10vw", height: "20vh" }}
-              ></img>{" "}
-            </div>
-            <div id="Kurs">React do podstaw</div>
-            <div id="Kurs">Wprowadzenie do git i github</div>
-            <div id="Kurs">React dla średniozawansowanych</div>
-            <div id="Kurs">
-              Programowanie w PHP od podstaw teoria i praktyka{" "}
-            </div>
-            <Route path="/" component={Home}></Route>
-            <Route path="/java" component={Java}></Route>
-            
+import React from "react";
+const Js = () => {
+  return (
+    <div style={{ margin: "150px" }}>
+      <h2>JavaScript</h2>
+      <p>
+        JavaScript poznawałem o przez wiele kursów youtubowych miedzy innymi
+        Mirosława Zalenta, SamurajaProgramowania platformy takie jak w3schools
+        oraz dokumentację techniczną
+      </p>
+    </div>
+  );
+};
+
+export default Js;
