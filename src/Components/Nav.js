@@ -6,7 +6,9 @@ const list = [
   { name: "Kursy ukończone", path: "/completed" },
   { name: "Kursy rozpoczęte", path: "/started" },
   { name: "Projekty", path: "/projects" },
+  { name: "Kontakt", path: "/contact" },
 ];
+
 const Nav = () => {
   const menu = list.map((item) => (
     <li key={item.name}>

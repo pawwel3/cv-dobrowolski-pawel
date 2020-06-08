@@ -1,0 +1,6 @@
+div.Certy img {
+  cursor: pointer;
+}
+div.Certy img:hover {
+  transform: scale(1.7);
+}

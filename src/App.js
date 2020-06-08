@@ -1,13 +1,12 @@
 import React from "react";
 import "./style/App.css";
 import { BrowserRouter } from "react-router-dom";
-import Footer from "./Components/Footer";
 import Nav from "./Components/Nav";
 import Page from "./Components/Page";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="App">
         <div className="Name">Paweł Dobrowolski</div>
         <div className="Center">
@@ -18,9 +17,6 @@ function App() {
             <Page />
           </div>
         </div>
-        <footer>
-          <Footer />
-        </footer>
       </div>
     </BrowserRouter>
   );

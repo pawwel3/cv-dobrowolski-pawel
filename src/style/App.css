@@ -11,7 +11,7 @@ div.App {
 div.Name {
   flex-basis: 20vh;
   text-align: center;
-  font-size: 15vh;
+  font-size: 7vw;
   background-color: #61dafb;
   color: #282c34;
   padding-top: 7vh;
@@ -30,10 +30,17 @@ div.Nav {
 div.Page {
   flex-grow: 1;
 }
-footer {
-  background-color: black;
-  color: white;
-  padding: 10px 0;
-  text-align: center;
-  text-transform: uppercase;
+@media (max-width: 600px) {
+  div.App {
+    width: 100%;
+    font-size: 2vw;
+  }
+  div.Name {
+    flex-basis: 10vh;
+    font-size: 5vw;
+  }
+  div.Center {
+    display: grid;
+    padding: 0;
+  }
 }

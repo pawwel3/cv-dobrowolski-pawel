@@ -1,0 +1,16 @@
+div.Completed {
+  text-align: center;
+}
+div.Kurs a {
+  text-decoration: none;
+  float: left;
+  width: 25%;
+  color: #61dafb;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition: 0.2s;
+}
+div.Kurs a:hover {
+  transform: scale(1.3);
+}

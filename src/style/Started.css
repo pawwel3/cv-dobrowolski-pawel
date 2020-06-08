@@ -1,0 +1,7 @@
+div.Started {
+  text-align: center;
+}
+div.Started div {
+  float: left;
+  width: 50%;
+}

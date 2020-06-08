@@ -32,3 +32,41 @@ nav.main li:nth-child(3) a.active {
 nav.main li:nth-child(4) a.active {
   border-left-color: rgb(240, 13, 51);
 }
+@media (max-width: 600px) {
+  nav.main {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  nav.main ul {
+    display: flex;
+  }
+  nav.main li {
+    flex-grow: 1;
+  }
+  nav.main a {
+    padding: 0;
+    font-weight: lighter;
+  }
+  nav.main a.active {
+    border-left: 0;
+    border-bottom: 10px gray solid;
+    transform: translateX(0px);
+  }
+  nav.main li:nth-child(1) a.active {
+    border-left: 0;
+    border-bottom-color: springgreen;
+  }
+  nav.main li:nth-child(2) a.active {
+    border-left: 0;
+    border-bottom-color: rgb(39, 52, 167);
+  }
+  nav.main li:nth-child(3) a.active {
+    border-left: 0;
+    border-bottom-color: rgb(252, 215, 9);
+  }
+  nav.main li:nth-child(4) a.active {
+    border-left: 0;
+    border-bottom-color: rgb(240, 13, 51);
+  }
+}
