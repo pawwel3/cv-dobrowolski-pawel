@@ -27,6 +27,25 @@ const Projects = () => {
         </a>
       </p>
       <p>
+        <h3>Gra Pink-Pong na komputer</h3>
+        <a
+          className="App-link"
+          href="https://pawwel3.github.io/ping-pong/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={word} alt="www"></img>
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/pawwel3/ping-pong"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={github} alt="github"></img>
+        </a>
+      </p>
+      <p>
         <h3>Gra spostrzegawczość</h3>
         <a
           className="App-link"
