@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/cv-dobrowolski-pawel/precache-manifest.37b7311bf7704dd2ac8a2f3b46f864eb.js"
+  "/cv-dobrowolski-pawel/precache-manifest.86aeff34725d65f7404b95da92415584.js"
 );
 
 self.addEventListener('message', (event) => {
