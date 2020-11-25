@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "44c862b5f02f4bad751364d7b63b5790",
+    "revision": "01ce5a14480a47aab68e8d4e583ad338",
     "url": "/cv-dobrowolski-pawel/index.html"
   },
   {
-    "revision": "72c3bde954a95620060a",
+    "revision": "5dc54716bac47a19a27f",
     "url": "/cv-dobrowolski-pawel/static/css/main.50f41ab3.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/cv-dobrowolski-pawel/static/js/2.977d25d4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72c3bde954a95620060a",
-    "url": "/cv-dobrowolski-pawel/static/js/main.acb55d6f.chunk.js"
+    "revision": "5dc54716bac47a19a27f",
+    "url": "/cv-dobrowolski-pawel/static/js/main.2ae40838.chunk.js"
   },
   {
     "revision": "83eb3e8dccc8034a525c",
