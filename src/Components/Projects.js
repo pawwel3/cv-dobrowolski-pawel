@@ -46,6 +46,25 @@ const Projects = () => {
         </a>
       </p>
       <p>
+        <h3>Logowanie</h3>
+        <a
+          className="App-link"
+          href="https://dobrowolski-paw.github.io/logowanie/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={word} alt="www"></img>
+        </a>
+        <a
+          className="App-link"
+          href="https://github.com/pawwel3/logowanie"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={github} alt="github"></img>
+        </a>
+      </p>
+      <p>
         <h3>Calculator</h3>
         <a
           className="App-link"
