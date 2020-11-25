@@ -49,7 +49,7 @@ const Projects = () => {
         <h3>Logowanie</h3>
         <a
           className="App-link"
-          href="https://dobrowolski-paw.github.io/logowanie/"
+          href="https://pawwel3.github.io/logowanie/"
           target="_blank"
           rel="noopener noreferrer"
         >
